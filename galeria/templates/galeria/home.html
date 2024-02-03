@@ -1,0 +1,7 @@
+{% comment %} <h1>Lista Galerii</h1>
+<ul>
+{% for galeria in galerie %}
+    <li>{{ galeria.nazwa }}</li>
+{% endfor %}
+</ul>
+<a href="{% url 'create_galeria' %}">Utwórz nową galerię</a> {% endcomment %}
